@@ -10,5 +10,7 @@ require 'pry'
 
 def get_the_min(groceries)
   #code your solution here!
-
+  if groceries == vegetable
+    return groceries[1][1]
+  end
 end
