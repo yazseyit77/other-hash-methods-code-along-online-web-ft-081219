@@ -13,5 +13,5 @@ def get_the_values(groceries)
   concatenated = Array.new
   groceries.values.each do |array|
     concatenated.concat(array)
-  end  
+  end
 end
