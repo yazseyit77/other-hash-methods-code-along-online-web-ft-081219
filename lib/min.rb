@@ -10,5 +10,7 @@ require 'pry'
 
 def get_the_min(groceries)
   #code your solution here!
-  groceries.min_by{|k, v| v}.to_a
+  groceries.each do |grocery|
+    grocery.min_by{|k, v| v}.to_a
+end
 end
